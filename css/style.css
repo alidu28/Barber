@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500&family=Open+Sans:wght@300;400;500;700;800&family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+#nav-bar{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav-bar .logo{
+    padding-left: 5rem;
+}
+
+#nav-bar .nav-list ul{
+    display: flex;
+    list-style: none;
+    padding-left: 3rem;
+}
+
+#nav-bar .nav-list a{
+    padding-inline: 2rem;
+}
+
+#appoint{
+    padding: 1.2rem;
+    color: #ffffff;
+    background-color: rgb(214, 83, 36);
+    width: 11rem;
+    margin-right: 4rem;
+    border: 1px solid rgb(214, 83, 36);
+    font-size: .9rem;
+}
+
+#appoint:hover{
+    background-color: transparent;
+    color: rgb(214, 83, 36);
+}
+
+#hero {
+    background-size: cover;
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero\ \(1\).jpeg) no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#hero h1{
+    width: 43rem;
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 2rem 5rem;
+    color: #ffffff;
+}
+
+#hero p{
+    width: 40rem;
+    font-size: 1rem;
+    padding: 0 5rem;
+}
+
+#hero #appoint{
+    margin: 2rem 5rem;
+}   
+
+#about{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    background-color: #fefefe;
+}
+
+#about .abt-img img{
+    z-index: -1;
+}
+
+#about .abt-img-1{
+    border: 15px solid #ffffff;
+    height: 26rem;
+    position: absolute;
+    top: 117.3%;
+    left: 30%;
+}
+
+#about .abt-text{
+    padding: 4rem;
+    margin-left: 10rem;
+}
+
+#about .abt-text h1{
+    font-size: 3rem;
+}
+
+#about .abt-text h3{
+    font-size: 1.5rem;
+}
+
+#about .abt-text h3 span{
+    color: rgb(214, 83, 36);
+    font-weight: 400;
+}
+
+#about .abt-text p{
+    width: 33rem;
+    padding: 2rem 0;
+    color: #788188;
+}
+
+#send{
+    padding: 1.2rem;
+    color: #ffffff;
+    background-color: rgb(214, 83, 36);
+    width: 10rem;
+    margin-right: 4rem;
+    border: 1px solid rgb(214, 83, 36);
+    font-size: .9rem;
+    margin: 2rem 0;
+}
+
+#send:hover{
+    background-color: transparent;
+    color: rgb(214, 83, 36);
+}
+
+#service h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+}
+
+#service p{
+    text-align: center;
+    width: 40rem;
+    margin-left: 21rem;
+    color: #788188;
+}
+
+#service .contain{
+    display: flex;
+    justify-content: center;
+}
+
+#service .shave-container{
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(214, 83, 36);
+    margin: 3.5rem 1rem;
+}
+
+#service .shave-img{
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: .3rem;
+    position: absolute;
+    left: 17.5%;
+    top: 242%;
+    box-shadow: 1px 4px 1px #d2d0d0, -1px 4px 1px #dddcdc;
+}
+
+#service .shave-text{
+    padding: 3.5rem 0;
+}
+
+#service .shave-container h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+#service .shave-container p{
+    margin: 0;
+    width: 22rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#service .trim-container{
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(214, 83, 36);
+    margin: 3.5rem 1rem;
+}
+
+#service .trim-img{
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: .5rem;
+    position: absolute;
+    left: 48%;
+    top: 242%;
+    box-shadow: 1px 4px 1px #d2d0d0, -1px 4px 1px #dddcdc;
+}
+
+#service .trim-img img{
+    width: 40px;
+    height: 40px;
+}
+
+#service .trim-text{
+    padding: 3.5rem 0;
+}
+
+#service .trim-container h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+#service .trim-container p{
+    margin: 0;
+    width: 22rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#service .cut-container{
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(214, 83, 36);
+    margin: 3.5rem 1rem;
+}
+
+#service .cut-img{
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: .5rem;
+    position: absolute;
+    left: 78.5%;
+    top: 242%;
+    box-shadow: 1px 4px 1px #d2d0d0, -1px 4px 1px #dddcdc;
+}
+
+#service .cut-img img{
+    width: 40px;
+    height: 40px;
+}
+
+#service .cut-text{
+    padding: 3.5rem 0;
+}
+
+#service .cut-container h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+#service .cut-container p{
+    margin: 0;
+    width: 22rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#prices{
+    padding: 10rem 0;
+}
+
+#prices .txt{
+    display: flex;
+    padding: 0 4rem;
+}
+
+#prices .txt .title h1{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+#prices .txt .title p{
+    width: 40rem;
+    color: #788188;
+}
+
+#prices .txt .chevron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem 24.5rem;
+}
+
+#prices .txt .chevron div{
+    font-size: 2rem;
+    color: #788188;
+    border: 1px solid rgb(214, 83, 36);
+    border-radius: 3rem;
+    margin-inline: .6rem;
+}
+
+#prices .txt .chevron i{
+    font-size: 2rem;
+    color: rgb(214, 83, 36);
+    padding-inline: .6rem;
+}
+
+#prices .cards{
+    display: flex;
+    /* justify-content: center; */
+}
+
+#card-2{
+    padding-left: 3rem;
+}
+
+#prices .cards h2{
+    color: rgb(214, 83, 36);
+    padding-left: 3rem;
+}
+
+#prices .card .detail{
+    display: flex;
+    padding: 1rem 3rem;
+}
+
+#prices .card .detail .con{
+    padding-left: 2rem;
+    padding-top: .8rem;
+}
+
+#prices .card .detail .con span{
+    color: #788188;
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+#prices .card .detail .con p{
+    color: #788188;
+}
+
+#barber{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+}
+
+#barber h1{
+    font-size: 2.5rem;
+}
+
+#barber p{
+    width: 68rem;
+    color: #788188;
+    padding: 1rem 0;
+    padding-left: 13rem;
+}
+
+#barber .barber-image{
+    display: flex;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#barber .barber-image .img-contain{
+    padding: 1rem;
+}
+
+#barber .barber-image h2{
+    padding: 1rem;
+}
+
+#barber .barber-image h4{
+    color: rgb(214, 83, 36);
+}
+
+#testimonials{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonials h1{
+    font-size: 2.5rem;
+}
+
+#testimonials p{
+    width: 68rem;
+    color: #788188;
+    padding: 1rem 0;
+    padding-left: 13rem;
+}
+
+#testimonials .test-img{
+    padding: 2rem;
+    color: #788188;
+}
+
+#appointment{
+    padding: 13rem 3rem;
+    justify-content: center;
+}
+
+#appointment .container{
+    display: flex;
+} 
+
+#appointment .forms{
+    padding: 0 3rem;
+    padding-left: 6.5rem;
+}
+
+#appointment .forms h1{
+    font-size: 2.5rem;
+}
+
+#appointment .forms .inputs{
+    display: grid;
+    width: 30rem;
+    height: 7rem;
+}
+
+#appointment .forms .inputs p{
+    padding-top: 2rem;
+    width: 30rem;
+}
+
+#appointment .forms #name{
+    padding-left: .5rem;
+    padding-bottom: .6rem;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 1px solid #788188;
+
+}
+
+#appointment .forms #email{
+    padding-left: .5rem;
+    padding-bottom: .6rem;
+    font-size: .9rem;
+    margin-top: 3.5rem;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 1px solid #788188;
+}
+
+#appointment .forms #message{
+    padding-left: .5rem;
+    padding-bottom: .6rem;
+    font-size: .9rem;
+    margin-top: 6rem;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 1px solid #788188;
+}
+
+#appointment .forms .inputs #send{
+    padding: 2 3rem;
+}
+
+#appointment .appoint-info{
+    padding-left: 7rem;
+    padding-top: 3rem;
+}
+
+#appointment .appoint-info span{
+    color: #788188;
+    font-weight: 400;
+}
+
+#appointment .appoint-info .address{
+    width: 25rem;
+    padding: 1.5rem;
+}
+
+#appointment .appoint-info .phone{
+    width: 13rem;
+    padding: 1.5rem;
+}
+
+#appointment .appoint-info .hours{
+    width: 17rem;
+    padding: 1.5rem;
+}
+
+#footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10rem 3rem;
+    padding-bottom: 5rem;
+}
+
+#footer .container{
+    display: flex;
+}
+
+#footer .foot-logo p{
+    padding-top: 1.6rem;
+    width: 27rem;
+}
+
+#footer .foot-logo i{
+    padding: 0 .5rem;
+}
+
+#footer .foot-info{
+    padding: .9rem 5rem;
+}
+
+#footer .foot-services{
+    padding: .9rem 4.5rem;
+}
+
+#footer .foot-follow{
+    padding: .9rem 3.5rem;
+}
+
+#footer p{
+    padding: .7rem 0;
+    color: #788188;
+}
+
+#footer .copyright{
+    padding-top: 7rem;
+}
