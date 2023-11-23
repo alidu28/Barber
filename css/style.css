@@ -52,6 +52,7 @@ body{
 #appoint:hover{
     background-color: transparent;
     color: rgb(214, 83, 36);
+    transition: 0.5s ease;
 }
 
 #hero {
@@ -139,6 +140,7 @@ body{
 #send:hover{
     background-color: transparent;
     color: rgb(214, 83, 36);
+    transition: 0.5s ease;
 }
 
 #service h1{
